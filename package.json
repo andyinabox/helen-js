@@ -10,13 +10,12 @@
   "author": "Andy Dayton <amdayton@gmail.com> (http://andydayton.com/)",
   "license": "ISC",
   "config": {
-    "helendb" : {
-      "url" : "https://amdayton.cloudant.com/"
+    "helendb": {
+      "url": "https://amdayton.cloudant.com/"
     }
   },
   "dependencies": {
     "download": "^5.0.2",
-    "minimist": "^1.2.0",
-    "querystring": "^0.2.0"
+    "minimist": "^1.2.0"
   }
 }
