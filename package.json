@@ -1,14 +1,22 @@
 {
-  "name": "helen-shared",
+  "name": "helen",
   "version": "0.0.1",
   "description": "Shared tools for the helen project",
   "main": "index.js",
+  "bin": "cli/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andy Dayton <amdayton@gmail.com> (http://andydayton.com/)",
   "license": "ISC",
+  "config": {
+    "helendb" : {
+      "url" : "https://amdayton.cloudant.com/"
+    }
+  },
   "dependencies": {
-    "minimist": "^1.2.0"
+    "download": "^5.0.2",
+    "minimist": "^1.2.0",
+    "querystring": "^0.2.0"
   }
 }
