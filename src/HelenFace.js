@@ -143,7 +143,7 @@ HelenFace.prototype._getIterator = function(type, vars) {
 			var yy = vars.width * v.y + vars.y;
 
 			b.vertex(xx, yy);			
-		}
+		},
 		'centered' : function(v, i) {
 			var xx = vars.width * (v.x - vars.centroid.x) + vars.x;
 			var yy = vars.width * (v.y - vars.centroid.y) + vars.y;
