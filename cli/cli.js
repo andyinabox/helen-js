@@ -21,7 +21,7 @@ if (argv['h']) help();
 
 function getCouchResponse(path, opts) {
 	var url = config.helendb.url + 'helendb/' + path + '?' + qs.stringify(argv);
-	console.log('fetching '+url);
+	// console.log('fetching '+url);
 	return download(url);
 }
 
@@ -46,6 +46,7 @@ function constants (args, opts) {
 
 const commands = {
 	'data' : data,
+	'constants': constants,
 	'help' : help
 }
 

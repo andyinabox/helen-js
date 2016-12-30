@@ -1,3 +1,3 @@
 module.exports = {
-	HelenFace: require('./src/HelenFace.js');
+	HelenFace: require('./src/HelenFace.js')
 }
